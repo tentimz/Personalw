@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="skills.css" />
+    <script src="skills.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="myhomename">Fatima Zahra Tenfati</div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="aboutme.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+  <section class="section">
+    <div class="content">
+      <h2>Skills</h2>
+      <p>
+        "Repetition is the mother of skill."- Jim Rohn. Also called "Rote
+        learning"
+      </p>
+    </div>
+    <div class="buttons">
+      <button class="Education" onclick="scrollToRectangle(1)">
+        Education
+      </button>
+      <button class="Certification" onclick="scrollToRectangle(2)">
+        Certification
+      </button>
+      <button class="projects" onclick="scrollToRectangle(3)">projects</button>
+      <button class="Learning" onclick="scrollToRectangle(4)">Learning</button>
+    </div>
+  </section>
+  <section class="rectangle-section">
+    <div class="rectangle" id="rectangle1">
+    <div class="container"> <p>Salesforce Certified Business Analyst - 2022</p>
+    <button class="view-button" onclick="showImage()"> View </button> 
+    <div id="file-container"></div>
+
+</div>
+    <div class="rectangle" id="rectangle2">
+
+    </div>
+    <div class="rectangle" id="rectangle3"></div>
+    <div class="rectangle" id="rectangle4"></div>
+  </section>
+</html>
