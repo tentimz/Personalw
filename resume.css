@@ -1,8 +1,8 @@
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  text-align: center; 
 }
 header {
   background-color: #333;
@@ -11,6 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1%;
 }
 
 .myhomename {
@@ -47,32 +48,63 @@ header {
 }
 .initial-heading {
   font-family: Poppins, sans-serif;
-  color: #000;
-  font-size: 48px;
+  color: #696a5f;
+  font-size: 45px;
   font-weight: 700;
   align-items: center;
   text-align: center;
   margin-bottom: 1%;
 }
+
 .hpresentation {
-  font-family: Poppins, sans-serif;
-  color: #000;
-  font-size: 30px;
+  display: grid;
+  font-family: 'Gill Sans' serif;
+  color: #696a5f;
+  font-size: 22px; /* Adjust the font size for the text */
   font-weight: 500;
   align-items: center;
   text-align: center;
-  margin-right: 20%;
-  margin-left: 20%;
   margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: beige;
+ 
 }
 
 main {
   color: #fff;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
   align-items: center;
-  overflow: hidden;
-  height: 19vh;
-  margin: 0 auto;
-  padding: 15%;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
   text-align: center;
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.middle{
+  background-image: url('SFwelcome.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 37% 40% 20%; /* First column: 40%, Second column: 60% */
+  gap: 20px;
+  height: 100vh;
+}
+.ranger{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+ 
+}
+
+.Welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
