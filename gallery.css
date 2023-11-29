@@ -59,3 +59,40 @@ nav a {
 .square:hover {
     background-color: #2980b9;
 }
+
+#square1{
+    background-image: url(jimrohn.webp);
+    text-align: left;
+
+}
+#square2{
+    background-image: url(ryanserhant.png);
+    text-align: left; 
+    background-size: 300px;
+}
+#square3{
+    background-image: url(gary-v.jpg);
+    text-align: left; 
+    background-size: 300px;
+}
+#square4{
+    background-image: url(raydalio.webp);
+    text-align: left; 
+    background-size: 500px;
+    background-position: center;
+    
+}
+
+#square5{
+    background-image: url(fzt.jpeg);
+    text-align: left; 
+    background-size: 300px;
+    background-position: auto; 
+}
+
+#square6{
+    background-image: url(ElonMusk.jpeg);
+    text-align: left; 
+    background-size: 500px;
+    background-position: center; 
+}

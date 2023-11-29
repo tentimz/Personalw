@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+  
+    The Salesforce Database Explained
+  
+    In the world of customer relationship management (CRM), Salesforce is leading the industry. Founded in 1999 by Marc Benioff, Salesforce is one of the oldest and most respected cloud-based software companies in the world. Having grown to serve over 150,000 paying customers in the last two decades, Salesforce is considered by many to be the number one CRM platform in the world today. With its wide range of features and capabilities, Salesforce has transformed the way companies manage their customer relationships and sales processes.
+    
+    However, to truly understand how this platform works, it's essential to have a good grasp of the Salesforce database, which serves as the foundation for all of its core features and functionality. Despite its importance, many users of Salesforce are still unclear on exactly how the database works and what makes it so effective.
+    
+    Here are our 5 key takeaways:
+    
+    A database is an area for structured data, which can be organized, managed, and manipulated through tables.
+    Databases can store large amounts of data for multiple users and are capable of loading more data than available RAM.
+    The Salesforce database is powered by Oracle and leverages self-securing and self-repairing features to improve its end product.
+    Salesforce calls its tables "objects," its rows "records," and its columns "fields." Objects can be structured using fields and records, and object relationships allow you to relate objects to share information and create sophisticated webs of data that are dynamic and useful.
+    Salesforce has two main types of object relationships - lookup relationships and master-detail relationships, which can be used depending on the level of relatedness between the objects. Other types of relationships include self-relationships, external lookup relationships, indirect lookup relationships, many-to-many relationships, and hierarchical relationships.
+    In this article, we will provide an overview of the Salesforce database to help you gain a deeper understanding of this critical component of the Salesforce platform. Read on to learn more about Salesforce, the power of its database, and how the Salesforce database can start benefiting your company today. 
+    
+    Table of Contents 
+    What is a Database? 
+    What is the Salesforce Database?
+    Understanding Tables in Salesforce 
+    Understanding Relational Databases
+    Understanding Salesforce's Relational Nature
+    How Integrate.io Can Help
+    
+    Integrate.ioIntegrate.io
+    The Unified Stack for Modern Data Teams
+    Get a personalized platform demo & 30-minute Q&A session with a Solution Engineer
+    Company email address
+    What is a Database?
+    A database is an area for structured data. And a database should ensure that data can be organized, and managed, and ultimately manipulated. To do this, databases leverage tables. Most of you are probably familiar with table format. If you think about how Microsoft Excel organized data, that's similar to how databases organize data. There are tables, rows, and everything is contained within one tabular system that's organized and structured.
+    
+    But Excel isn't a database. It's a spreadsheet. Not only do databases help structure and organize data via tables, but they are utilized for storing large amounts of data for multiple users. So, if you tried to boot up a 1GB Excel file, you would probably be sitting at your computer for.. well, forever. Databases don't use Excel's cell-based storage system, and they load up data fast.
+    
+    So, databases should be three things:
+    
+    Structured and organized using tables
+    Capable of loading more data than available RAM
+    Can support multiple users/admins
+    That's pretty much it! But, not all databases are created equally. Some databases are flat, static, and hyper-focused on a very basic task. And others get a little more complicated.
+    
+    What is the Salesforce Database? 
+    Salesforce uses Oracle to power its databases. That may seem strange since Salesforce and Oracle are direct competitors. But, like Apple and Samsung, they have a semi-symbiotic relationship. Oracle CX may compete with Salesforce, but Salesforce uses some of Oracle's database properties — namely self-securing and self-repairing features — to improve its end product. Salesforce also utilized PostgreSQL and a few other languages, but the majority of its platform runs on Oracle Databases.
+    
+    For more information on our native Salesforce connector, visit our Integration page.
+    
+    To really understand Salesforce's database, it may be a good idea to learn more about Oracle. Here are some helpful resources.
+    
+    https://www.oracle.com/database/
+    https://www.oracle.com/database/what-is-a-relational-database/
+    Understanding Tables in Salesforce 
+    Salesforce calls its tables "objects," its rows "records," and its columns "fields." So, Salesforce has objects with fields and a bunch of records. We'll get into the fun stuff and talk about how we can relate these objects to other objects in a bit. For now, let's define these three core functions — objects, fields, and records.
+    
+    Objects in Salesforce
+    Salesforce has 3 primary types of objects:
+    
+    Standard Objects: These are objects that are already established within Salesforce when you first boot it up. These are things like the Account Object, Lead Object, and Contact Object.
+    Custom Objects: These are objects your business will create based on your unique needs. So, if you run an event planning business, you may want an Events Object. 
+    External Objects: These are custom objects that map data outside of Salesforce.
+    These objects are basically data containers. And you can structure them using fields and records. To be clear, custom objects in Salesforce give you more functionality than a simple Excel spreadsheet. Beyond the relational features, custom objects in Salesforce generate custom layouts, and you can quickly set up reporting and analytic functionalities in each custom object.
+    
+    Fields in Salesforce
+    Fields are your columns in Salesforce. Standard objects in Salesforce will come with prebuilt standard fields. And custom objects will also come with 3 standard fields automatically.
+    
+    These are:
+    
+    Identity: This contains a 15-character unique data identifier for each record. The identity field is the key field in Salesforce. The data here is unique to each dataset, and it's a core component of Salesforce's relational structure (which we'll get to in a bit).
+    Name: This is simply the name of the record. It can be a number or a name.
+    System: These are read-only and usually tell you the last time the record was touched. So, it will be something like LastModifiedByID.
+    These fields are in EVERY Salesforce object — regardless of type.
+    
+    Beyond these fields, there are custom fields. Each custom field will have a data type associated with it. So, these could include checkboxes, formulas, dates, or a number of other things. Here's a list.
+    
+    Records in Salesforce
+    Once you've defined an object and its fields, you can create records on that object. So, if you wanted to add a new account to the Leads Object, you would create a new record in Salesforce, fill out the predefined fields, and then you would have your record.
+    
+    Like rows in databases, records attribute data to a unique identifier (a.k.a, the Identifier Field). Let's say that you have a customer who your Sales team determines is a lead. They can create a new record in Salesforce under the Leads Object. That record is given a unique ID that associates all information that the sales team member plugs into the record with that particular account.
+    
+    Related Reading: How to Use Salesforce to Salesforce to Enable Your Data Sharing Strategy
+    
+    Understanding Relational Databases
+    In traditional databases, information is simply related within the context of the database itself. In other words, rows are related to columns. This is incredibly helpful when you're working within the context of a single table, but what if you need multiple tables to share data with each other? For that, you will need a relational database.
+    
+    Like traditional databases, relational databases have rows and columns. But, each row has a unique identifier (or key) that defines that row. Each table also has a unique key. So, you can use that unique key to link to other tables. This creates a massive web of tables that are all interrelated, giving you the ability to do some fantastically complicated things, like track, measure, and utilize customer data. To accurately track and handle all of this customer data, you need a database that's fast, secure, and complex enough to relate important data points together seamlessly. Which is exactly what Salesforce's database provides.
+    
+    Related Reading: Introduction to Salesforce Connect
+    
+    Understanding Salesforce's Relational Nature
+    In a typical database, tables can share the same type of data. But, there's no real way for them to talk to each other and utilize data from one another. In a relational database like Salesforce, they can.
+    
+    Object relationships allow you to relate objects to share information and create sophisticated webs of data that are dynamic and ultimately useful. So, let's say that you have an Account Object and a Contact Object — both standard objects within Salesforce. Does it really make sense for them not to share information? Chances are, you're going to have multiple contacts on each account.
+    
+    In Salesforce, you can set up an Object relationship with custom objects. And standard objects already share relationships. So, you'll see Contacts in the top corner of your Accounts tab natively within Salesforce.
+    
+    This gets us into our next section — relationship types in Salesforce.
+    
+    The Two Types of Relationships in Salesforce
+    Lookup relationships: These are relationships that allow you to "lookup" related objects from within an object itself. This is the most basic relational link within Salesforce.
+    Master-Detail relationships: This is identical to lookup relationships with one big difference. Master-Detail relationships share a hard relationship. So, one object is a master object the other is a detail object. The master object controls the detail object. So, let's say that you had a Master Object of Accounts and a Detail object of contacts. If you deleted Accounts, it would delete all of your contacts. These can get hyper-complex and create intricate webs of object relationships.
+    Related Reading: How to Use Salesforce to Salesforce
+    
+    Typically, you will use Master-Detail relationships when objects are always related. And you will use Lookup relationships when objects are sometimes related.
+    
+    There are a few other types of relationships that fall under the umbrella of these two relationships. These are:
+    
+    Self-relationships
+    External lookup relationships
+    Indirect lookup relationships
+    Many-to-many relationships
+    Hierarchical relationships
+    You can find more information about relationship types for Salesforce here. 
+    
+    How Integrate.io Can Help 
+    Ultimately, Salesforce is a leader in the tech space. For companies looking to get the most out of their data, working with Salesforce is a must. While Salesforce is great on its own, it's made even better when paired with the Integrate.io platform. With Integrate.io, you can set up easy-to-use and functional data pipelines between Salesforce and almost any other server or cloud data warehouse. 
+    
+    Are you ready to discover how Integrate.io can help make your experience with Salesforce even better? Contact our team today to schedule a 14-day demo or pilot and see how we can help you reach your goals.
+    
+    Integrate.ioIntegrate.io
+    
+</body>
+<link rel="stylesheet" type="text/css" href="sfdatabase.css" />
