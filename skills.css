@@ -226,3 +226,49 @@ h2{
   background-image: url(salescloud.webp);
   font-weight: bold;
 }
+
+
+#nopower{
+  background-color: #1a1919;
+  align-items: center;
+  
+}
+#nopost{
+  align-items: center;
+  background-color: #1a1919;
+}
+#noboot{
+  align-items: center;
+  background-color: #1a1919;
+}
+#dhcp{
+  align-items: center;
+  background-color: #1a1919;
+}
+
+#ports{
+  align-items: center;
+  background-color: #1a1919;
+}
+#dns{
+  align-items: center;
+  background-color: #1a1919;;
+}
+#AD{
+  align-items: center;
+  color: brown;
+  background-color: #1a1919;
+  font-weight: bold;
+}
+#CIDR{
+  align-items: center;
+  color: brown;
+  background-color: #1a1919;
+  font-weight: bold;
+}
+#Network{
+  align-items: center;
+  color: brown;
+  background-color: #1a1919;
+  font-weight: bold;
+}

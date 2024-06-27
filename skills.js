@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('square1').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://salesforce.vidyard.com/watch/PjNcmecuqcYKH2cJsfLEAy?_ga=2.175975522.1748971924.1698078343-199303864.1695985956&_gl=1*10xemea*_ga*MTk5MzAzODY0LjE2OTU5ODU9IN';
+    window.location.href = 'https://youtu.be/-DRNJzmNOC4?si=4raOKR24UhMa9EDb';
   });
 });
 
