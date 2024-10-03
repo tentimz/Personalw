@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 110px; /* Add top padding to account for the fixed navigation bar */
+    overflow-y: auto; /* Add vertical scrolling for container */
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    margin: 20px 0;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #2980b9;
+}
+
+#square1{
+    background-image: url(jimrohn.webp);
+    text-align: left;
+
+}
+#square2{
+    background-image: url(ryanserhant.png);
+    text-align: left; 
+    background-size: 300px;
+}
+#square3{
+    background-image: url(gary-v.jpg);
+    text-align: left; 
+    background-size: 300px;
+}
+#square4{
+    background-image: url(raydalio.webp);
+    text-align: left; 
+    background-size: 500px;
+    background-position: center;
+    
+}
+
+#square5{
+    background-image: url(fzt.jpeg);
+    text-align: left; 
+    background-size: 300px;
+    background-position: auto; 
+}
+
+#square6{
+    background-image: url(ElonMusk.jpeg);
+    text-align: left; 
+    background-size: 500px;
+    background-position: center; 
+}
