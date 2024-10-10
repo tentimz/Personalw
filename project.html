@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gallery.css">
-    <title>Clickable Squares</title>
+    <link rel="stylesheet" href="project.css">
+    <title>Tennis Club App Profile</title>
 </head>
-<body>
+
+<body >
+
     <nav>
         <ul>
+            
+            <a href="index.html" style="color: rgb(196, 22, 167); text-align: left;">Fatima Zahra Tenfati</a>
+
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -16,32 +21,71 @@
             <li><a href="project.html">Projects</a></li>
         </ul>
     </nav>
-    <div class="container">
-        
-
-      <td>Tennis club App using Salesforce <br></td> 
-      <td><br></td> 
-
-      The road to developing an app for the Asca Tennis Club was mostly defined by my prior experiences at the club. Each time I visited to play tennis, I ended up confronting the same problem: coaches and players using the court I had previously reserved for a session with my coach. Other coaches didn't just come there; often, we had to either change courts or pack together in one court, thus making it an unpleasant experience for all involved.
-
-      On the flip side, it was also hard for me, as a member, to communicate with other players in the club. <br>
-      I just didn't have access to their contact details, making it difficult to set up matches or reach out to them.<br>
-      No member’s communication platform for broadcasting their messages to peers or communicating with coaches existed.<br>
-      This lack of interconnectedness made it very hard for members to develop a sense of community.<br>
-      After learning Salesforce, gaining expertise in Apex, and obtaining my Salesforce Developer certification, I realized I had the tools to solve these problems.<br>
-      The idea for the app was born from the need to streamline court reservations, connect members, and provide a smoother experience for everyone. <br>
-      The Asca Tennis Club app became my way to bring my technical skills and passion for problem-solving together, creating a solution to challenges I had experienced firsthand as a club member.<br>
-
-      <h1>ACSA Tennis Club Presentation</h1>
-
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/tsk8OCQQhiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
     
-      </div>
-      
+    <div class="container">
+        <h1>Tennis Club App</h1>
+
+        <!-- Project Overview Section -->
+        <section class="project-overview">
+            <h2>About the Tennis Club App</h2>
+            <p class="container" >
+                The road to developing the Asca Tennis Club app was defined by my experiences as a club member.</br>
+                I regularly faced issues with court reservations, where coaches and players would end up using courts I had reserved. </br>
+                Communication with other members was also challenging, as there was no platform to exchange contact details or set up matches.
+            </p>
+            <p class="container">
+                With my Salesforce knowledge and experience, I saw an opportunity to solve these problems.</br>
+                The app was developed to streamline court reservations, foster communication among members, and offer a more organized tennis club experience for everyone.
+            </p>
+        </section>
+
+        <!-- App Requirements Section -->
+        <section class="app-requirements">
+            <h2>App's Requirements</h2>
+            <ul>
+                <li><strong>Purpose:</strong> To solve issues with court reservations and improve communication among members.</li>
+                <li><strong>Target Audience:</strong> Club members, coaches, and administrators who manage club logistics.</li>
+                <li><strong>Key Features:</strong> Court Reservations, Member List & Communication, Coach Directory, Chatter Feed, and Gallery.</li>
+            </ul>
+        </section>
+
+        <!-- User Experience Section -->
+        <section >
+            <h2>User Experience</h2>
+            <p class="user-experience">
+                The app offers a user-friendly interface for booking courts and connecting with other members. </br>
+                The Chatter feed enhances community interaction, while admin features allow for easy management of members, reservations, and coaches.
+            </p>
+        </section>
+
+        <!-- App Design and Backend Development Section -->
+        <section class="app-design">
+            <h2>App Design & Development</h2>
+            <p>
+                <strong>Design Tools:</strong> Lightning App Builder for designing the user interface.
+            </p>
+            <p>
+                <strong>Backend Development:</strong> Apex Classes, Lightning Web Components (LWC), Custom Objects, and Salesforce Data Management using SOQL/SOSL.
+            </p>
+        </section>
+
+        <!-- App Creation Steps Section -->
+        <section class="app-steps">
+            <h2>App Creation Steps</h2>
+            <ol>
+                <li>Define custom objects (e.g., <code>Club_Members__c</code>, <code>Coaches__c</code>, <code>Court_Reservation__c</code>, and <code>Tournaments__c</code>).</li>
+                <li>Implement features based on user requirements and optimize for a smooth experience.</li>
+                <li>Test and refine the app to ensure it solves the club’s challenges effectively.</li>
+            </ol>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <h2>App Demo Video</h2>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/BgOxjn7daKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
     </div>
 
-    <script src="gallery.js"></script>
+    <script src="project.js"></script>
 </body>
 </html>
