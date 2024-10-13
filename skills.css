@@ -167,7 +167,10 @@ h2{
   overflow: auto;
   border: 4px solid #1a1919 ;
 }
-
+.project{
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
 #rectangle1{
   overflow: auto;
   margin-top: 40px;
@@ -190,6 +193,8 @@ h2{
   overflow: auto;
   margin-top: 0;
   background-color: #fbfaf9;
+  text-align: center;
+  
 }
 .Certification{
   font-weight: bold;
@@ -224,51 +229,5 @@ h2{
   align-items: center;
   color: brown;
   background-image: url(salescloud.webp);
-  font-weight: bold;
-}
-
-
-#nopower{
-  background-color: #1a1919;
-  align-items: center;
-  
-}
-#nopost{
-  align-items: center;
-  background-color: #1a1919;
-}
-#noboot{
-  align-items: center;
-  background-color: #1a1919;
-}
-#dhcp{
-  align-items: center;
-  background-color: #1a1919;
-}
-
-#ports{
-  align-items: center;
-  background-color: #1a1919;
-}
-#dns{
-  align-items: center;
-  background-color: #1a1919;;
-}
-#AD{
-  align-items: center;
-  color: brown;
-  background-color: #1a1919;
-  font-weight: bold;
-}
-#CIDR{
-  align-items: center;
-  color: brown;
-  background-color: #1a1919;
-  font-weight: bold;
-}
-#Network{
-  align-items: center;
-  color: brown;
-  background-color: #1a1919;
   font-weight: bold;
 }
