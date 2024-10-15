@@ -55,11 +55,13 @@ header {
 .content {
   text-align: center;
   margin-bottom: 50px;
+ 
 }
 
 .buttons {
   display: flex;
   justify-content: center;
+
 }
 
 button {
@@ -74,6 +76,7 @@ button {
 
 button:hover {
   background-color: #2196f3;
+
 }
 
 .rectangle-section {
@@ -174,26 +177,30 @@ h2{
 #rectangle1{
   overflow: auto;
   margin-top: 40px;
-  background-color: #fbfaf9;
+  background-color: #eb5bf53b;
+  border-color: #ee13e3d4;
   
 }
 #rectangle2 {
   overflow: auto;
-  background-color: #fbfaf9;
+  background-color: #f6f33413;
   display: flex;
+  border-color: #d7ab0bd4;
 }
 
 #rectangle3{
   overflow: auto;
   margin-top: 0;
-  background-color: #fbfaf9;
+  background-color: #3aee0d3b;
+  border-color: #3aee0dd4;
 }
 
 #rectangle4{
   overflow: auto;
   margin-top: 0;
-  background-color: #fbfaf9;
+  background-color: #60ccf325;
   text-align: center;
+  border-color: #58aaf252;
   
 }
 .Certification{
@@ -230,4 +237,20 @@ h2{
   color: brown;
   background-image: url(salescloud.webp);
   font-weight: bold;
+}
+.EduCert{
+  border-color: #ee13e3d4;
+  background-color: #ee13e3d4;
+  border-width: 1mm;
+}
+.ExpDet{
+  background-color: #d7ab0bd4;
+ 
+  
+}
+.SFSkills{
+  background-color:#3aee0dd4;
+}
+.Projects{
+  background-color: #0fb5e3d4;
 }
