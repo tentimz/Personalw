@@ -208,35 +208,101 @@ h2{
   display: block;
 }
 #square1{
-  background-image: url('flowic.webp');
-  
+  background-image: url('Adminic.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 #square2{
   align-items: center;
-  background-image: url(sfdb.png);
+  background-image: url(AdminAdvancedic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 #square3{
   align-items: center;
-  background-image: url(apexic.webp);
+  background-image: url(dev1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 #square4{
   align-items: center;
-  background-image: url(visualfic.webp);
+  background-image: url(businessAnalystic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 
 #square5{
   align-items: center;
-  background-image: url(soqlic.webp);
+  background-image: url(AppBuilderic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 #square6{
   align-items: center;
-  background-image: url(apisic.webp);
+  background-image: url(ranger.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 #square7{
   align-items: center;
   color: brown;
-  background-image: url(salescloud.webp);
+  background-image: url(MCSA.png);
   font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+#square8{
+  align-items: center;
+  color: brown;
+  background-image: url(MCSE.png);
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+#square9{
+  align-items: center;
+  color: brown;
+  background-image: url();
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a7d6e3d4;
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 .EduCert{
   border-color: #ee13e3d4;

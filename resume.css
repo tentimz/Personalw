@@ -1,19 +1,18 @@
 footer {
   background-color: #333;
   color: #fff;
-  padding: 100px;
+  padding: 20px;
   text-align: center; 
 }
 header {
   background-color: #333;
   color: #fff;
-  padding: 100px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1%;
+  
 }
-
 .myhomename {
   color: #fff;
   font-size: 20px;
@@ -56,56 +55,76 @@ header {
   margin-bottom: 1%;
 }
 
-.hpresentation {
-  display: grid;
-  font-family: 'Gill Sans' serif;
-  color: #696a5f;
-  font-size: 22px; /* Adjust the font size for the text */
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  background-color: beige;
- 
-}
-
 main {
   color: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Align content to the top */
+  justify-content: center; 
   align-items: center;
-  overflow-y: auto; /* Enable vertical scrolling if needed */
-  margin: 0; /* Reset margin */
-  padding: 0; /* Reset padding */
-  text-align: center;
-  height: 100vh; /* Set height to 100% of the viewport height */
 }
 
 .middle{
-  background-image: url('SFwelcome.jpeg');
+ 
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-color: #f5f4ee;
 
 }
 
 .container{
-  display: grid;
-  grid-template-columns: 37% 40% 20%; /* First column: 40%, Second column: 60% */
-  gap: 20px;
-  height: 100vh;
-}
-.ranger{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
- 
+  grid-template-columns: 25%,25%, 50% ; 
+  gap: 20px;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
 }
 
+
 .Welcome{
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 255px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.tfz{
+  color: var(--black);
+  font-family: 'Poppins ', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 36px;
+  line-height: 28px;
+ 
+}
+.hpresentation {
+  display:flex;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 0;
+  padding-right: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center; 
 }

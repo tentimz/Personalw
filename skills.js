@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('square1').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://youtu.be/-DRNJzmNOC4?si=4raOKR24UhMa9EDb';
+    window.location.href = 'Administrator.pdf';
   });
 });
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('square2').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'sfdatabase.html';
+    window.location.href = 'AdvancedAdministrator.pdf';
   });
 });
 
@@ -30,14 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('square3').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/superbadges/superbadge_apex';
+    window.location.href = 'dev1.pdf';
   });
 });
 document.addEventListener("DOMContentLoaded", function() {
  
   document.getElementById('square4').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/modules/lex_dev_visualforce';
+    window.location.href = 'BusinessAnalyst.pdf';
   });
 });
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   document.getElementById('square5').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/modules/soql-for-admins?trailmix_creator_id=filholmc&trailmix_slug=sql-soql-and-sosl';
+    window.location.href = 'AppBuilder.pdf';
   });
 });
 
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
  
   document.getElementById('square6').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/modules/pw-api-basics';
+    window.location.href = 'https://www.salesforce.com/trailblazer/ftenfati';
 });
 });
 
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   document.getElementById('square7').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/trails/discover-sales-cloud';
+    window.location.href = 'https://www.credly.com/badges/9409c8c9-e900-4470-8d2d-b687c4c3c11c/public_url';
 });
 });
 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   document.getElementById('square8').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'webdev.html';
+    window.location.href = 'https://www.credly.com/badges/cf151617-858e-4a58-9dab-c8e636012329/public_url';
 });
 });
 document.addEventListener("DOMContentLoaded", function() {
