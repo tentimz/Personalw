@@ -70,13 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
   document.getElementById('square8').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'https://www.credly.com/badges/cf151617-858e-4a58-9dab-c8e636012329/public_url';
-});
-});
-document.addEventListener("DOMContentLoaded", function() {
-  
-  document.getElementById('square9').addEventListener('click', function(event) {
-    event.preventDefault();
-    window.location.href = 'https://trailhead.salesforce.com/content/learn/modules/lex_implementation_user_setup_mgmt?trailmix_creator_id=adhawan1&trailmix_slug=security-permission-set-profiles-roles';
+    window.location.href = 'https://www.credly.com/badges/5658a623-ba29-4c43-8005-f4c21aad262c/public_url';
 });
 });
