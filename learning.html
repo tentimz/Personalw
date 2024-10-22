@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="learning.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html">About</a></li>
+          </ul>
+        </div>
+      </header>
+      <br>
+      <br>
+    <div class="container">
+
+        <h1>Salesforce Loyalty Management Overview</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Section</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Importance of Loyalty Programs</td>
+                    <td>
+                        <ul>
+                            <li><strong>Customer Retention:</strong> Incentivizes repeat purchases.</li>
+                            <li><strong>Brand Advocacy:</strong> Turns customers into promoters.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Common Pain Points</td>
+                    <td>
+                        <ul>
+                            <li><strong>Separate Systems:</strong> Difficulty integrating multiple solutions.</li>
+                            <li><strong>Program Tracking:</strong> Inaccurate customer lifetime value tracking.</li>
+                            <li><strong>Personalization:</strong> Lack of tailored experiences.</li>
+                            <li><strong>Audience Targeting:</strong> Difficulty identifying target audiences for promotions.</li>
+                            <li><strong>Timeliness:</strong> Struggles in engaging customers at the right moment.</li>
+                            <li><strong>Points Management:</strong> Complexities in managing points due to high transaction volumes.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salesforce Loyalty Management Solutions</td>
+                    <td>
+                        <ul>
+                            <li><strong>Consolidation:</strong> Unified platform for program management.</li>
+                            <li><strong>Automation:</strong> Streamlines processes to enhance efficiency.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Key Features</td>
+                    <td>
+                        <ul>
+                            <li><strong>Member Management:</strong> Enrollment and tracking of members.</li>
+                            <li><strong>Program Setup:</strong> Customization with tiers, currencies, and partners.</li>
+                            <li><strong>Loyalty Experiences:</strong> Automatic benefit assignment and targeted promotions.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Required Permissions</td>
+                    <td>
+                        <ul>
+                            <li><strong>Loyalty Management Permission Set:</strong> Grants edit access to relevant objects.</li>
+                            <li>Additional permissions configured via profiles or sets.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+
+        <h1>Set Up a Loyalty Program</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Section</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Loyalty Program Setup</td>
+                    <td>
+                        <ul>
+                            Set up a loyalty program in the <strong>Loyalty Management app</strong> You can create and activate the program, which supports both <strong>B2C</strong>(customers) and <strong>B2B</strong> (partners) models.
+                        
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tier Groups and Tiers</td>
+                    <td>
+                        <ul>
+                            Create a <strong>tier group</strong> and associate it with the loyalty program. Define three key attributes: <strong>Tier Period</strong>, <strong>Qualifying Period</strong>, and <strong>Tier Model</strong> (Fixed or Anniversary). Create tiers based on points, offering different rewards per tier.
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>Program Currencies</td>
+                    <td>
+                        <ul>
+                            Define <strong>Qualifying Points</strong> (used for tier progression) and <strong>Non-Qualifying Points</strong> (redeemable for rewards). Set up expiration rules, like the<strong>Fixed Model</strong>  or <strong>Activity Model</strong>, for non-qualifying points.
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Escrow Points</td>
+                    <td>
+                        <ul>
+                            Use escrow to temporarily hold points after a transaction before crediting them to members, ensuring proper handling in case of returns.
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Partners and Partner Products</td>
+                    <td>
+                        <ul>
+                            Add partners and associate their products with the program. Partners can be <strong>accrual partners</strong> (members earn points) or <strong>redemption partners</strong> (members spend points). Products can be assigned individually or by category.
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Program Members</td>
+                    <td>
+                        <ul>
+                            Enroll members by inviting them to sign up. Restrict membership to individuals or allow group membership, where members can contribute points to a shared balance.
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Next Step</td>
+                    <td>
+                        <ul>
+                            Once the loyalty program, tier groups, currencies, partners, and members are set up, the next step is to focus on defining <strong>member rewards</strong>.
+                        </ul>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+</body>
+</html>

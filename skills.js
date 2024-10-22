@@ -73,3 +73,12 @@ document.addEventListener("DOMContentLoaded", function() {
     window.location.href = 'https://www.credly.com/badges/5658a623-ba29-4c43-8005-f4c21aad262c/public_url';
 });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  
+  document.getElementById('square9').addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'learning.html';
+});
+});

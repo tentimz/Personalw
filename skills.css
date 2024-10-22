@@ -295,7 +295,7 @@ h2{
 #square9{
   align-items: center;
   color: brown;
-  background-image: url();
+  background-image: url(blog.jpeg);
   font-weight: bold;
   background-repeat: no-repeat;
   background-position: center;
@@ -303,6 +303,7 @@ h2{
   color: var(--black);
   font-family: Poppins, sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 .EduCert{
   border-color: #ee13e3d4;
