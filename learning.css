@@ -54,7 +54,7 @@ ul {
 }
 
 strong {
-    color: #1682e1c1;
+    color: #185b91f2;
 }
 
 .menu {
@@ -92,3 +92,18 @@ strong {
     align-items: center;
     margin: 0%;
   }
+.example{
+    margin-left: 10cm;
+    margin-right: 10cm;
+    background-color: rgba(134, 177, 177, 0.405);
+}
+.title{
+    font-size: 60px;
+    align-items: left;
+    color: #129ce1;
+    margin-left: 2cm;
+}
+.def{
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
